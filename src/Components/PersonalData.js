@@ -1,7 +1,7 @@
 import React from "react"; 
 import '../Styles/PersonalData.css'
 import Name from "./Name";
-import profile from '../Assets/profile.png'
+import profile from '../Assets/profile.jpg'
 import social from '../Assets/social.png'
 import languages from '../Assets/languages.png'
 import hobbies from '../Assets/hobbies.png'
