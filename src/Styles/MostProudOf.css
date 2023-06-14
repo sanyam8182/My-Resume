@@ -1,0 +1,26 @@
+.most-proud-wrapper {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    gap: 15px;
+}
+.mp-icon {
+    width: 20px;
+    height: 20px;
+}
+.most-proud-item-wrapper{
+    width: 95%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.mp-title{
+    color: #ae9775;
+    font-size: medium;
+}
+.mp-text {
+    font-size: small;
+}

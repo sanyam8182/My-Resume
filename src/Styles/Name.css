@@ -1,0 +1,21 @@
+.name-container {
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.name {
+    color: #ae9775;
+    font-weight: 500;
+    font-size: x-large;
+}
+
+.role {
+    color: white;
+    font-weight: 400;
+    font-size: large;
+}

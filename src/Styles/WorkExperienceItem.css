@@ -1,0 +1,25 @@
+.work-experience-item-container {
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.location-wrapper {
+    font-weight: 400;
+    font-size: 16px;
+}
+.responsibilities-wrapper {
+    align-items: start;
+    margin-left: 10px;
+}
+.responsibilities-wrapper span {
+    width: 100%;
+    margin-top: -2px;
+}
+.work-heading{
+    color: #ae9775;
+}
+.work-organization{
+    color: #2f5e52;
+}

@@ -1,0 +1,43 @@
+.my-time-wrapper {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 50px;
+}
+.mt-clircle {
+    width: 40%;
+}
+.my-time-item-wrapper {
+    width: 60%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.mt-activity-wrapper {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+.activity-color {
+    width: 25px;
+    height: 25px;
+    border-radius: 3px;
+}
+.activity-color1{
+    background-color: #ae9775;
+}
+.activity-color2{
+    background-color: #beac91;
+}
+.activity-color3{
+    background-color: #cec0ad;
+}
+.activity-color4{
+    background-color: #f5f2ee;
+}

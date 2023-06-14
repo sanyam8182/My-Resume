@@ -1,0 +1,17 @@
+.technical-skills-item-container {
+
+    width: 26%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-left: 10px;
+
+}
+.highlight-view {
+
+    width: 100%;
+    height: 10px;
+    border-radius: 5px;
+    background-color: #ae9775;
+}

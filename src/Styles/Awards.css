@@ -1,0 +1,14 @@
+.awards-wrapper {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    column-gap: 50px;
+}
+.awads-title {
+    color: #ae9775;
+    font-weight: 500;
+    font-size: medium;
+}

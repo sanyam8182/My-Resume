@@ -1,0 +1,49 @@
+.personal-data-container {
+
+    width: 100%;
+    height: 100%;
+    background-color: #2f5e52;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+.profile-img {
+
+    width: 90%;
+    position: relative;
+
+}
+
+.profile-img::before {
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+  }
+  
+.profile-img img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.social-img {
+
+    width: 90%;
+}
+
+.title{
+    color: #ae9775;
+    font-size: x-large;
+    font-weight: 600;
+}
+
+.divider {
+    width: 90%;
+    height: 2px;
+    background-color: #ae9775;
+    margin-bottom: 16px;
+}

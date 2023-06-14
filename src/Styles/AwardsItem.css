@@ -1,0 +1,11 @@
+.awards-item-container {
+    width: 40%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    color: #ae9775;
+    font-weight: 400;
+    font-size: medium;
+    gap: 10px;
+    margin-left: 12px;
+}
