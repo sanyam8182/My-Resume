@@ -24,6 +24,8 @@ export const myTime = [{"Activity": "Working", "Percentage": 42, "Class": "activ
 {"Activity": "Relaxing", "Percentage": 33, "Class": "activity-color3"},
 {"Activity": "Other Activities", "Percentage": 13, "Class": "activity-color4"}];
 
+export const languages = [{"Language": "English", "Proficiency": 90}, {"Language": "Hindi", "Proficiency": 100}, {"Language": "Japanese", "Proficiency": 20}];
+
 export const workExperience = [{"Role": "Full Stack Developer and Integration Architect", "Organization": "Hewlett Packard Enterprise", 
 "From": "Oct 2022", "To": "Present", "Location": "Client in Germany", "Responsilbilities": ["Gathered and documented non-functional requirements to ensure alignment between development process and desired project outcomes.",
 "Translated functional requirements into concise user stories, serving as clear guidelines for development teams.", 

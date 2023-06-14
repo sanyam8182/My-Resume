@@ -2,7 +2,7 @@ import React from "react";
 import Heading from "./Heading";
 import my_time_green_icon from '../Assets/my-time-green.png'
 import my_time_grayicon from '../Assets/my-time-gray.png'
-import circularProgressBar from "../Assets/my-time-circle.png";
+import my_time_circle from "../Assets/my-time-circle.png";
 import '../Styles/MyTime.css'
 
 const MyTime = (props) => {
@@ -10,7 +10,7 @@ const MyTime = (props) => {
         <div className="main-container">
             <Heading heading="My Time" icon={my_time_green_icon}/>
             <div className="my-time-wrapper">
-                <img className="mt-clircle" src={circularProgressBar}/>
+                <img className="mt-clircle" src={my_time_circle}/>
                 <div className="my-time-item-wrapper">
                     {
                         props.myTime.map((item, index) => {

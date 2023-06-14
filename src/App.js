@@ -12,7 +12,6 @@ import MyTime from './Components/MyTime';
 import PersonalData from './Components/PersonalData'
 import { personal_skills, technical_skills, awards, workExperience, mostProudOf, myTime} from './Data';
 
-
 function App() {
    
   return (

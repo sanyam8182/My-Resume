@@ -1,0 +1,62 @@
+.social-container {
+    width: 95%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    color: white;
+    font-weight: 700;
+}
+.social-wrapper {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    background-color: black;
+}
+.social-wrapper img {
+    height: 17px;
+    width: 17px;
+    margin-left: 20px;
+}
+.social-wrapper a:link {
+    color: white;
+}
+.social-wrapper a:visited {
+    color: white;
+}
+.horizontal-wrapper1 {
+    background: rgba(0, 0, 0, .7);
+}
+.horizontal-wrapper2 {
+    background: rgba(0, 0, 0, .6);
+}
+.horizontal-wrapper3 {
+    background: rgba(0, 0, 0, .5);
+}
+.horizontal-wrapper4 {
+    background: rgba(0, 0, 0, .4);
+}
+.horizontal-wrapper5 {
+    background: rgba(0, 0, 0, .3);
+}
+.horizontal-wrapper6 {
+    background: rgba(0, 0, 0, .2);
+}
+.horizontal-wrapper7 {
+    background: rgba(0, 0, 0, .1);
+}
+.horizontal-wrapper8 {
+    background: rgba(0, 0, 0, 0);
+}
+.horizontal-wrapper9 {
+    background: rgba(0, 0, 0, 0);
+}
+.horizontal-wrapper10 {
+    background: rgba(0, 0, 0, 0);
+}
+.horizontal-wrapper11 {
+    background: rgba(0, 0, 0, 0);
+}

@@ -1,40 +1,43 @@
 import React from 'react';
+import '../Styles/CircularProgressBar.css'
 
-const CircularProgressBar = ({ myTime }) => {
-  const radius = 50;
+const CircularProgressBar = ({ progress, size }) => {
+  const strokeWidthBackground = 4;
+  const strokeWidthProgress = 12;
+  const radius = (size - strokeWidthProgress) / 2;
   const circumference = 2 * Math.PI * radius;
-
-  const renderProgress = () => {
-    let offset = 0;
-
-    return myTime.map(({ Color, Percentage }, index) => {
-      const progressColor = Color;
-      const dashOffset = ((100 - Percentage) / 100) * circumference - offset;
-
-      offset += (Percentage / 100) * circumference;
-
-      return (
-        <circle
-          key={index}
-          className="progress-ring__circle"
-          cx={radius}
-          cy={radius}
-          r={radius}
-          fill="transparent"
-          stroke={progressColor}
-          strokeWidth={10}
-          strokeDasharray={circumference}
-          strokeDashoffset={dashOffset}
-        />
-      );
-    });
-  }
+  const offset = circumference - (progress / 100) * circumference;
 
   return (
-    <svg className="progress-ring" viewBox={`0 0 ${2 * radius} ${2 * radius}`}>
-      {renderProgress()}
+    <svg className="circular-progress" width={size} height={size}>
+      <circle
+        className="background-circle"
+        cx={size / 2}
+        cy={size / 2}
+        r={radius}
+        strokeWidth={strokeWidthBackground}
+      />
+      <circle
+        className="progress-circle"
+        cx={size / 2}
+        cy={size / 2}
+        r={radius}
+        strokeWidth={strokeWidthProgress}
+        strokeDasharray={circumference}
+        strokeDashoffset={offset}
+      />
+      <text
+        className="progress-text"
+        x="50%"
+        y="50%"
+        dominantBaseline="middle"
+        textAnchor="middle"
+      >
+        {progress}%
+      </text>
     </svg>
   );
 };
 
 export default CircularProgressBar;
+
